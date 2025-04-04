@@ -11,17 +11,21 @@
       <i class="el-icon-menu"></i>
       <span slot="title">首页</span>
     </el-menu-item>
-    <el-menu-item index="about">
+    <el-menu-item index="page1">
       <i class="el-icon-document"></i>
-      <span slot="title">关于</span>
+      <span slot="title">Vue实例</span>
     </el-menu-item>
-    <el-menu-item index="contact">
-      <i class="el-icon-setting"></i>
-      <span slot="title">联系</span>
-    </el-menu-item>
-    <el-menu-item index="hello">
+    <el-menu-item index="page2">
       <i class="el-icon-document"></i>
-      <span slot="title">插值语法</span>
+      <span slot="title">Vue数据绑定</span>
+    </el-menu-item>
+    <el-menu-item index="page3">
+      <i class="el-icon-document"></i>
+      <span slot="title">学生列表案例</span>
+    </el-menu-item>
+    <el-menu-item index="page4">
+      <i class="el-icon-document"></i>
+      <span slot="title">Vue事件</span>
     </el-menu-item>
   </el-menu>
 </template>
