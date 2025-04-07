@@ -1,5 +1,5 @@
 <template>
-  <div>学生列表案例</div>
+  <div>Vue事件</div>
 </template>
 
 <script>

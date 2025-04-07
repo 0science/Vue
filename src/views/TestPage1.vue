@@ -45,7 +45,8 @@
 
     <div class="box">
       <h2>filters过滤器</h2>
-      <p>{{ msg5   }}</p>
+      <p>过滤前：{{ msg5 }}</p>
+      <p>过滤后：{{ msg5 | fix }}</p>  
     </div>
   </div>
 </template>
@@ -61,7 +62,7 @@ export default {
       price: 100,
       count: 2,
       msg4: "未监听",
-      msg5: "未过滤",
+      msg5: 3.1415926,
     };
   },
   methods: {
@@ -79,32 +80,24 @@ export default {
   },
   watch: {
     msg2() {
-      this.msg4 = "已输入内容";
+      this.msg4 = "输入内容已变化";
     },
     msg3() {
-      this.msg4 = "已调用方法";
+      this.msg4 = "方法调用状态已更新";
     },
     total() {
-      this.msg4 = "已计算属性";
+      this.msg4 = "总价计算属性已更新";
+    },
+  },
+  filters: {
+    fix(value) {
+      return value.toFixed(2);
     },
   },
 };
 </script>
 
 <style>
-h1 {
-  text-align: center;
-}
 
-h2 {
-  margin-top: 0px;
-}
 
-.box {
-  border: 1px solid #ebebeb;
-  padding: 24px;
-  margin: 10px;
-  border-radius: 16px;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-}
 </style>

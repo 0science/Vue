@@ -21,11 +21,19 @@
     </el-menu-item>
     <el-menu-item index="page3">
       <i class="el-icon-document"></i>
-      <span slot="title">学生列表案例</span>
+      <span slot="title">Vue事件</span>
     </el-menu-item>
     <el-menu-item index="page4">
       <i class="el-icon-document"></i>
-      <span slot="title">Vue事件</span>
+      <span slot="title">Vue组件</span>
+    </el-menu-item>
+    <el-menu-item index="page5">
+      <i class="el-icon-document"></i>
+      <span slot="title">Vue生命周期</span>
+    </el-menu-item>
+    <el-menu-item index="case1">
+      <i class="el-icon-document"></i>
+      <span slot="title">学生列表案例</span>
     </el-menu-item>
   </el-menu>
 </template>

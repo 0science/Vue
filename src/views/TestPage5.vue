@@ -1,5 +1,5 @@
 <template>
-  <div>Vue组件</div>
+  <div>Vue生命周期</div>
 </template>
 
 <script>

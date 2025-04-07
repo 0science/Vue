@@ -28,7 +28,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
+.box {
+  border: 1px solid #ebebeb;
+  padding: 24px;
+  margin: 10px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: 0px;
+}
 body {
   margin: 0;
 }

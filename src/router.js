@@ -5,6 +5,9 @@ import TestPage1 from './views/TestPage1.vue'
 import TestPage2 from './views/TestPage2.vue'
 import TestPage3 from './views/TestPage3.vue'
 import TestPage4 from './views/TestPage4.vue'
+import TestPage5 from './views/TestPage5.vue'
+
+import CasePage1 from './views/CasePage1.vue'
 
 Vue.use(Router)
 
@@ -42,5 +45,15 @@ export default new Router({
       name: 'page4',
       component: TestPage4
     },
+    {
+      path: '/page5',
+      name: 'page5',
+      component: TestPage5
+    },
+    {
+      path: '/case1',
+      name: 'case1',
+      component: CasePage1
+    }
   ]
 })
